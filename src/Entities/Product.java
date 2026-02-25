@@ -24,8 +24,8 @@ public class Product {
         return price;
     }
 
-    public int getQuantity(int quantity) {
-        this.quantity = quantity;
+    public int getQuantity() {
+        return  quantity;
     }
 
     public void setPrice(double price) {
